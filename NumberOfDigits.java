@@ -3,7 +3,6 @@ public class NumberOfDigits{
     int noOfDigits(int n){
         int count=0;
         while(n!=0){
-            int r=n%10;
             n=n/10;
             count++;
         }
@@ -16,4 +15,5 @@ public class NumberOfDigits{
         int n=sc.nextInt();
         System.out.println(nd.noOfDigits(n));
     }
+
 }
