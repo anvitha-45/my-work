@@ -11,7 +11,9 @@ public class DivisorsOfNumber2 {
             }
         }
         Collections.sort(div);
-        System.out.println(div);
+        for (int i: div){                        //System.out.println(div);
+            System.out.println(i);
+        }
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -21,3 +23,4 @@ public class DivisorsOfNumber2 {
         dn.divisorsOfN2(n);
     }
 }
+
